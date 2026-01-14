@@ -99,3 +99,4 @@ def watsonx_process_message(user_message):
     response_text = model.generate_text(prompt=prompt)
     print("wastonx response:", response_text)
     return response_text.strip()
+
